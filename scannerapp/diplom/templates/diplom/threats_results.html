@@ -1,0 +1,43 @@
+{% extends 'diplom/base.html' %}
+
+{% block content %}
+{% for item in data %}
+<div class="container-fluid bg-dark text-light border border-secondary mt-5" >
+  <h2>УБИ: {{ item.threat_id }}</h2> 
+  <p>Наименование {{ item.threat_name }}</p>
+  <p>Описание {{ item.threat_desc }}</p>
+  <button class="btn btn-light" onclick="showTable('{{ item.threat_id }}')">Show table</button>
+  <div id="table-{{ item.threat_id }}" class="container-fluid bg-dark text-light" style="display: none;">
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for vul in item.vul_ids %}
+          <tr>
+            <td>{{ vul.vul_id }}</td>
+            <td>{{ vul.vul_name }}</td>
+            <td>{{ vul.vul_desc }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endfor %}
+
+<script>
+function showTable(threat_id) {
+  var table = document.getElementById("table-" + threat_id);
+  if (table.style.display === "none") {
+    table.style.display = "block";
+  } else {
+    table.style.display = "none";
+  }
+}
+</script>
+{% endblock %}

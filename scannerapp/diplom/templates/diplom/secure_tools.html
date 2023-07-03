@@ -1,0 +1,134 @@
+{% extends 'diplom/base.html' %}
+
+{% block content %}
+<div class="container bg-dark text-light">
+    <div class="tab-content">
+      <div id="antivirus" class="tab-pane fade show active">
+            <h3>Антивирусное ПО (САВЗ)</h3>
+            <form method="post" action="{% url 'secure_tools' %}">
+                {% csrf_token %}
+            <div class="form-group">
+                <label for="antivirus-type">Тип САВЗ:</label>
+                <select class="form-control" id="antivirus-type" name="antivirus-type">
+                <option>А</option>
+                <option>Б</option>
+                <option>В</option>
+                <option>Г</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="antivirus-class">Класс защиты САВЗ:</label>
+                <select class="form-control" id="antivirus-class" name="antivirus-class">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="antivirus-checkboxes">Средства защиты:</label>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="True" id="antivirus-1" name="antivirus-checkboxes">
+                <label class="form-check-label" for="cerification">
+                    Учитывать наличие сертификата ФСТЭК
+                </label>
+                </div>
+            </div>
+            <h3>Межсетевые экраны (МЭ)</h3>
+            <div class="form-group">
+                <label for="firewall-type">Тип МЭ:</label>
+                <select class="form-control" id="firewall-type" name="firewall-type">
+                <option>А</option>
+                <option>Б</option>
+                <option>В</option>
+                <option>Г</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="firewall-class">Класс защиты МЭ:</label>
+                <select class="form-control" id="firewall-class" name="firewall-class">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="firewall-checkboxes">Средства защиты:</label>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="True" id="antivirus-1" name="firewall-checkboxes">
+                <label class="form-check-label" for="cerification">
+                    Учитывать наличие сертификата ФСТЭК
+                </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-light">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<button id="help-button" class="btn btn-primary float-right">Помощь</button>
+
+<div id="help-window" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Справка</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul class="nav nav-tabs" id="help-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tab-1" data-toggle="tab" href="#section-1" role="tab" aria-controls="section-1" aria-selected="true">Справка по САВЗ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-2" data-toggle="tab" href="#section-2" role="tab" aria-controls="section-2" aria-selected="false">Справка по МЭ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-3" data-toggle="tab" href="#section-3" role="tab" aria-controls="section-3" aria-selected="false">Раздел 3</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="help-tab-content">
+                    <div class="tab-pane fade show active" id="section-1" role="tabpanel" aria-labelledby="tab-1">
+                        <ul>
+                            <li>тип «А» – предназначенные для централизованного администрирования средствами антивирусной защиты, установленными на компонентах информационных систем (серверах, автоматизированных рабочих местах)</li>
+                            <li>тип «Б» – предназначенные для применения на серверах информационных систем;</li>
+                            <li>тип «В» – предназначенные для применения на автоматизированных рабочих местах информационных систем;</li>
+                            <li>тип «Г» – предназначенные для применения на автономных автоматизированных рабочих местах.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="section-2" role="tabpanel" aria-labelledby="tab-2">
+                        <ul>
+                            <li>МЭ типа «А» – это МЭ, применяемый на физической границе (периметре) информационной системы или между физическими границами сегментов информационной системы.</li>
+                            <li>МЭ типа «Б» – это МЭ, применяемый на логической границе (периметре) информационной системы или между логическими границами сегментов информационной системы.</li>
+                            <li>МЭ типа «В» – это МЭ, применяемый на узле (хосте) информационной системы.</li>
+                            <li>МЭ типа «Г» – это МЭ, применяемый на сервере, обслуживающем сайты, веб-службы и веб-приложения, или на физической границе сегмента таких серверов (сервера). Межсетевые экраны типа «Г» могут иметь программное или программно-техническое исполнение и должны обеспечивать контроль и фильтрацию информационных потоков по протоколу передачи гипертекста, проходящих к веб-серверу и от веб-сервера.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="section-3" role="tabpanel" aria-labelledby="tab-3">
+                        <p>Текст раздела 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("#help-button").click(function() {
+            $("#help-window").modal("show");
+        });
+    });
+</script>
+
+
+
+{% endblock %}

@@ -1,0 +1,292 @@
+[
+    {
+        "IP": "192.168.5.101",
+        "mac_address": "AA:BB:CC:00:10:10",
+        "operative_system_match": {
+            "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+            "accuracy": "100",
+            "osclass": {
+                "type": "router",
+                "vendor": "Cisco",
+                "osfamily": "IOS",
+                "osgen": "15.X"
+            }
+        },
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "23",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "telnet",
+                    "product": "Cisco IOS telnetd",
+                    "ostype": "IOS",
+                    "devicetype": "switch",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:telnet"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": []
+            }
+        ]
+    },
+    {
+        "IP": "192.168.5.102",
+        "mac_address": "AA:BB:CC:00:20:10",
+        "operative_system_match": {
+            "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+            "accuracy": "100",
+            "osclass": {
+                "type": "router",
+                "vendor": "Cisco",
+                "osfamily": "IOS",
+                "osgen": "15.X"
+            }
+        },
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "23",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "telnet",
+                    "product": "Cisco IOS telnetd",
+                    "ostype": "IOS",
+                    "devicetype": "switch",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:telnet"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": []
+            }
+        ]
+    },
+    {
+        "IP": "192.168.5.103",
+        "mac_address": "AA:BB:CC:00:30:00",
+        "operative_system_match": {
+            "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+            "accuracy": "100",
+            "osclass": {
+                "type": "router",
+                "vendor": "Cisco",
+                "osfamily": "IOS",
+                "osgen": "15.X"
+            }
+        },
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "22",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "ssh",
+                    "product": "Cisco SSH",
+                    "version": "1.25",
+                    "extrainfo": "protocol 2.0",
+                    "ostype": "IOS",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:ssh:1.25"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "23",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "telnet",
+                    "product": "Cisco IOS telnetd",
+                    "ostype": "IOS",
+                    "devicetype": "switch",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:telnet"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": []
+            }
+        ]
+    },
+    {
+        "IP": "192.168.5.104",
+        "mac_address": "AA:BB:CC:00:40:10",
+        "operative_system_match": {
+            "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+            "accuracy": "100",
+            "osclass": {
+                "type": "router",
+                "vendor": "Cisco",
+                "osfamily": "IOS",
+                "osgen": "15.X"
+            }
+        },
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "22",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "ssh",
+                    "product": "Cisco SSH",
+                    "version": "1.25",
+                    "extrainfo": "protocol 2.0",
+                    "ostype": "IOS",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:ssh:1.25"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": []
+            },
+            {
+                "protocol": "tcp",
+                "portid": "23",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "telnet",
+                    "product": "Cisco IOS telnetd",
+                    "ostype": "IOS",
+                    "devicetype": "switch",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:telnet"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": []
+            }
+        ]
+    },
+    {
+        "IP": "192.168.5.105",
+        "mac_address": "AA:BB:CC:00:50:00",
+        "operative_system_match": {
+            "name": "Cisco 836, 890, 1751, 1841, 2800, or 2900 router (IOS 12.4 - 15.1)",
+            "accuracy": "100",
+            "osclass": {
+                "type": "router",
+                "vendor": "Cisco",
+                "osfamily": "IOS",
+                "osgen": "15.X"
+            }
+        },
+        "ports": [
+            {
+                "protocol": "tcp",
+                "portid": "22",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "ssh",
+                    "product": "Cisco SSH",
+                    "version": "1.25",
+                    "extrainfo": "protocol 2.0",
+                    "ostype": "IOS",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:ssh:1.25"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": [
+                    {
+                        "name": "ssh-hostkey",
+                        "raw": "\n  1024 4a6fc8cb47b70993fa9f27aca85b3455 (RSA)",
+                        "data": {
+                            "children": [
+                                {
+                                    "key": "AAAAB3NzaC1yc2EAAAADAQABAAAAgQC8z1XHx574r0CdEN3yD30Rl7tghbzeGEi0NN9YOmkCna6soRxvL/q63k0cvfLJ3636UY19m2Z3ZfCMx5+yxEfFLD1b7oJ4+lmI856VIv2MaqNRy2caLIq7lzizvYc6jw8HrLVosqP0yUypfq6HXzClDeXBidvMaSWVUVmuGq671Q==",
+                                    "type": "ssh-rsa",
+                                    "bits": "1024",
+                                    "fingerprint": "4a6fc8cb47b70993fa9f27aca85b3455"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "protocol": "tcp",
+                "portid": "23",
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "255",
+                "service": {
+                    "name": "telnet",
+                    "product": "Cisco IOS telnetd",
+                    "ostype": "IOS",
+                    "devicetype": "switch",
+                    "method": "probed",
+                    "conf": "10"
+                },
+                "cpe": [
+                    {
+                        "cpe": "cpe:/a:cisco:telnet"
+                    },
+                    {
+                        "cpe": "cpe:/o:cisco:ios"
+                    }
+                ],
+                "scripts": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+{% extends 'diplom/base.html' %}
+
+{% block content %}
+<div class="container bg-dark text-light">
+  <h2 class="center">Карточки активов</h2>
+  <div class="row ">
+    {% for item in data %}
+    <div class="col-md-4">
+      <div class="card mb-5 " style="width: 18rem;">
+            <div class="card-body ">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                        <th>IP</th>
+                        <td>{{ item.IP }}</td>
+                        </tr>
+                        <tr>
+                        <th>MAC Address</th>
+                        <td>{{ item.mac_address }}</td>
+                        </tr>
+                        <tr>
+                        <th>Type</th>
+                        <td>{{ item.operative_system_match.osclass.type }}</td>
+                        </tr>
+                        <tr>
+                        <th>OS Vendor</th>
+                        <td>{{ item.operative_system_match.osclass.vendor }}</td>
+                        </tr>
+                        <tr>
+                        <th>OS Family</th>
+                        <td>{{ item.operative_system_match.osclass.osfamily }}</td>
+                        </tr>
+                        <tr>
+                        <th>OS Gen</th>
+                        <td>{{ item.operative_system_match.osclass.osgen }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer" style="display: none;">
+              <table class="table">
+                <tbody>
+                    <tr>
+                    <th>Ports</th>
+                    <td>
+                        <ul>
+                        {% for port in item.ports %}
+                        <li>{{ port.protocol }} - {{ port.portid }}</li>
+                        {% endfor %}
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th>Service Name</th>
+                    <td>
+                        <ul>
+                          {% for port in item.ports %}
+                          <li>{{ port.service.name }}</li>
+                          {% endfor %}
+                        </ul>
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+      </div>  
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

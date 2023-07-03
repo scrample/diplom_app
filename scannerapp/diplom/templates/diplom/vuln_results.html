@@ -1,0 +1,67 @@
+{% extends 'diplom/base.html' %}
+
+{% block content %}
+{% for item in data %}
+<div class="container-fluid bg-dark text-light mt-5">
+  <h2>Host IP: {{ item.ip }}</h2> 
+  <button class="btn btn-light" onclick="showTable('{{ item.ip }}')">Show table</button>
+  <div id="table-{{ item.ip }}" class="container-fluid bg-dark text-light" style="display: none;">
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>CVE</th>
+          <th>Description</th>
+          <th>CVSS vector</th>
+          <th>Danger level</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for vul in item.vulns %}
+          <tr>
+            <td>{{ vul.ID }}</td>
+            <td>{{ vul.CVE }}</td>
+            <td>{{ vul.Description }}</td>
+            <td class="bg-dark">{{ vul.cvss }}</td>
+            <td data-column-id="dangerlevel">{{ vul.dangerlevel }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endfor %}
+
+<script>
+function showTable(ip) {
+  var table = document.getElementById("table-" + ip);
+  if (table.style.display === "none") {
+    table.style.display = "block";
+  } else {
+    table.style.display = "none";
+  }
+}
+
+// Окрашиваем ячейки с уязвимостями в красный цвет, если они содержат слово "высокий"
+const crit = '#9d3725';
+const high = '#df8505';
+const medium = '#ffe835'
+const low = 'green';
+
+const cells = document.querySelectorAll('td[data-column-id="dangerlevel"]');
+cells.forEach(cell => {
+  const cellText = cell.textContent.toLowerCase();
+  if (cellText.includes('критический')) {
+    cell.style.backgroundColor = crit;
+  }
+  else if (cellText.includes('высокий')) {
+    cell.style.backgroundColor = high;
+  }
+  else if (cellText.includes('средний')) {
+    cell.style.backgroundColor = medium;
+  } else {
+    сell.style.backgroundColor = low;
+  }
+});
+</script>
+{% endblock %}

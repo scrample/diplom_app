@@ -1,0 +1,841 @@
+{
+    "antivirus": [
+        {
+            "type": "А",
+            "classes": [
+                {
+                    "id": 1,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "2474",
+                            "name": "программное изделие «Kaspersky Web Traffic Security 6.1»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://support.kaspersky.ru/kwts6",
+                            "cert_time": "24.10.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(2), Требования к САВЗ, Профиль защиты САВЗ(Б второго класса защиты. ИТ.САВЗ.Б2.ПЗ)"
+                        },
+                        {
+                            "cert_number": "2534",
+                            "name": "программное изделие Kaspersky Endpoint Security для Linux",
+                            "Detection Rate": 0.85,
+                            "Scan Speed": 80,
+                            "Resource Usage": 0.2,
+                            "Cost": 200,
+                            "link": "https://www.kaspersky.ru/small-to-medium-business-security/endpoint-linux",
+                            "cert_time": "27.12.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(2), Требования к САВЗ, Профиль защиты САВЗ(Б второго класса защиты. ИТ.САВЗ.Б2.ПЗ), Профиль защиты САВЗ(В второго класса защиты. ИТ.САВЗ.В2.ПЗ), Профиль защиты САВЗ(Г второго класса защиты. ИТ.САВЗ.Г2.ПЗ)"
+
+                        },
+                        {
+                            "cert_number": "2840",
+                            "name": "программное изделие «Kaspersky Security 8.0 для Linux Mail Server»",
+                            "Detection Rate": 0.75,
+                            "Scan Speed": 90,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://support.kaspersky.ru/klms8",
+                            "cert_time": "13.03.2024",
+                            "documents": "Соответствует требованиям документов: Требования доверия(2), Требования к САВЗ, Профиль защиты САВЗ(Б второго класса защиты. ИТ.САВЗ.Б2.ПЗ)"
+
+                        },
+                        {
+                            "cert_number": "3840",
+                            "name": "программное изделие «Kaspersky Security 11 для Windows Server»",
+                            "Detection Rate": 0.75,
+                            "Scan Speed": 80,
+                            "Resource Usage": 0.1,
+                            "Cost": 300,
+                            "link": "https://support.kaspersky.ru/ksws11",
+                            "cert_time": "25.12.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(2), Требования к САВЗ, Профиль защиты САВЗ(Б второго класса защиты. ИТ.САВЗ.Б2.ПЗ), ЗБ"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 4,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3864",
+                            "name": "программное изделие «Kaspersky Secure Mail Gateway»",
+                            "Detection Rate": 0.90,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://www.kaspersky.ru/small-to-medium-business-security/mail-security-appliance",
+                            "cert_time": "16.01.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к САВЗ, Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), ЗБ"
+                        },
+                        {
+                            "cert_number": "3883",
+                            "name": "программное изделие «Kaspersky Security для виртуальных сред 5.2 Легкий агент»",
+                            "Detection Rate": 0.87,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://support.kaspersky.com/ksvla/5.2/ru-RU/145134.htm",
+                            "cert_time": "14.02.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к САВЗ, Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), Профиль защиты САВЗ(В четвертого класса защиты. ИТ.САВЗ.В4.ПЗ)"
+                        },
+                        {
+                            "cert_number": "3745",
+                            "name": "cредство защиты информации Secret Net Studio",
+                            "Detection Rate": 0.85,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://cbi-s.ru/catalog/programmnye-szi-ot-nsd/secret-net-studio/",
+                            "cert_time": "16.05.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(В четвертого класса защиты. ИТ.МЭ.В4.ПЗ), Требования к САВЗ, Профиль защиты САВЗ(А четвертого класса защиты. ИТ.САВЗ.А4.ПЗ), Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), Профиль защиты САВЗ(В четвертого класса защиты. ИТ.САВЗ.В4.ПЗ), Профиль защиты САВЗ(Г четвертого класса защиты. ИТ.САВЗ.Г4.ПЗ), Требования к СКН, Профиль защиты СКН(контроля подключения съемных машинных носителей информации четвертого класса защиты. ИТ.СКН.П4.ПЗ), Требования к СОВ, Профили защиты СОВ(узла четвертого класса защиты. ИТ.СОВ.У4.ПЗ), ЗБ, РД СВТ(5)"
+                        },
+                        {
+                            "cert_number": "3884",
+                            "name": "программное изделие «Kaspersky Security для виртуальных сред 6.1 Защита без агента»",
+                            "Detection Rate": 0.85,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://support.kaspersky.com/KSV/6.1/ru-RU/56682.htm",
+                            "cert_time": "14.02.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к САВЗ, Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), Профиль защиты САВЗ(В четвертого класса защиты. ИТ.САВЗ.В4.ПЗ), ЗБ"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 6,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                }
+            ]
+            
+        },
+        {
+            "type": "Б",
+            "classes": [
+                {
+                    "id": 1,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3155",
+                            "name": "программное изделие «Kaspersky Security Center 14»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 75,
+                            "Resource Usage": 0.1,
+                            "Cost": 150
+                        },
+                        {
+                            "cert_number": "3509",
+                            "name": "Dr.Web Enterprise Security Suite",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 65,
+                            "Resource Usage": 0.1,
+                            "Cost": 200
+                        },
+                        {
+                            "cert_number": "3556",
+                            "name": "программный комплекс «Kaspersky Security Center совместно с Kaspersky Private Security Network»",
+                            "Detection Rate": 0.75,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 300
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 4,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3864",
+                            "name": "программное изделие «Kaspersky Secure Mail Gateway»",
+                            "Detection Rate": 0.90,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://www.kaspersky.ru/small-to-medium-business-security/mail-security-appliance",
+                            "cert_time": "16.01.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к САВЗ, Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), ЗБ"
+                        },
+                        {
+                            "cert_number": "3883",
+                            "name": "программное изделие «Kaspersky Security для виртуальных сред 5.2 Легкий агент»",
+                            "Detection Rate": 0.87,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://support.kaspersky.com/ksvla/5.2/ru-RU/145134.htm",
+                            "cert_time": "14.02.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к САВЗ, Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), Профиль защиты САВЗ(В четвертого класса защиты. ИТ.САВЗ.В4.ПЗ)"
+                        },
+                        {
+                            "cert_number": "3745",
+                            "name": "cредство защиты информации Secret Net Studio",
+                            "Detection Rate": 0.85,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://cbi-s.ru/catalog/programmnye-szi-ot-nsd/secret-net-studio/",
+                            "cert_time": "16.05.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(В четвертого класса защиты. ИТ.МЭ.В4.ПЗ), Требования к САВЗ, Профиль защиты САВЗ(А четвертого класса защиты. ИТ.САВЗ.А4.ПЗ), Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), Профиль защиты САВЗ(В четвертого класса защиты. ИТ.САВЗ.В4.ПЗ), Профиль защиты САВЗ(Г четвертого класса защиты. ИТ.САВЗ.Г4.ПЗ), Требования к СКН, Профиль защиты СКН(контроля подключения съемных машинных носителей информации четвертого класса защиты. ИТ.СКН.П4.ПЗ), Требования к СОВ, Профили защиты СОВ(узла четвертого класса защиты. ИТ.СОВ.У4.ПЗ), ЗБ, РД СВТ(5)"
+                        },
+                        {
+                            "cert_number": "3884",
+                            "name": "программное изделие «Kaspersky Security для виртуальных сред 6.1 Защита без агента»",
+                            "Detection Rate": 0.85,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://support.kaspersky.com/KSV/6.1/ru-RU/56682.htm",
+                            "cert_time": "14.02.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к САВЗ, Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), Профиль защиты САВЗ(В четвертого класса защиты. ИТ.САВЗ.В4.ПЗ), ЗБ"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3554",
+                            "name": "McAfee Advanced Threat Defence",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3774",
+                            "name": "Программное обеспечение «McAfee Web Gateway» (версия 7.x)",
+                            "Detection Rate": 0.91,
+                            "Scan Speed": 90,
+                            "Resource Usage": 0.1,
+                            "Cost": 150
+                        },
+                        {
+                            "cert_number": "3959",
+                            "name": "программное обеспечение «Symantec Endpoint Protection» (версия 14)",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        },
+                        {
+                            "cert_number": "4323",
+                            "name": "межсетевой экран «Kerio Control»",
+                            "Detection Rate": 0.93,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.3,
+                            "Cost": 100
+                        }
+                    ]
+                }
+            ] 
+        },
+        {
+            "type": "В",
+            "classes": [
+                {
+                    "id": 1,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "2534",
+                            "name": "программное изделие Kaspersky Endpoint Security для Linux",
+                            "Detection Rate": 0.75,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.4,
+                            "Cost": 100
+                        },
+                        {
+                            "cert_number": "3025",
+                            "name": "программное изделие «Kaspersky Endpoint Security 10 для Windows»",
+                            "Detection Rate": 0.65,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.4,
+                            "Cost": 100
+                        },
+                        {
+                            "cert_number": "3509",
+                            "name": "Dr.Web Enterprise Security Suite",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3907",
+                            "name": "программное изделие «Kaspersky Industrial CyberSecurity for Nodes»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "4253",
+                            "name": "программное изделие «Kaspersky Endpoint Security for Aurora»",
+                            "Detection Rate": 0.45,
+                            "Scan Speed": 80,
+                            "Resource Usage": 0.2,
+                            "Cost": 100
+                        },
+                        {
+                            "cert_number": "3883",
+                            "name": "программное изделие «Kaspersky Security для виртуальных сред 5.2 Легкий агент»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 6,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                }
+            ] 
+        },
+        {
+            "type": "Г",
+            "classes": [
+                {
+                    "id": 1,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3509",
+                            "name": "Dr.Web Enterprise Security Suite",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        },
+                        {
+                            "cert_number": "3597",
+                            "name": "программный комплекс «Электронный замок «ВИТЯЗЬ», версия 2.2",
+                            "Detection Rate": 0.65,
+                            "Scan Speed": 80,
+                            "Resource Usage": 0.05,
+                            "Cost": 100
+                        },
+                        {
+                            "cert_number": "4068",
+                            "name": "программное изделие «Kaspersky Endpoint Security для Windows»",
+                            "Detection Rate": 0.55,
+                            "Scan Speed": 60,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 4,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3745",
+                            "name": "cредство защиты информации Secret Net Studio",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 6,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3774",
+                            "name": "Программное обеспечение «McAfee Web Gateway» (версия 7.x)",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100
+                        }
+                    ]
+                }
+            ] 
+        }
+    ],
+    "firewall": [
+        {
+            "type": "А",
+            "classes": [
+                {
+                    "id": 1,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "2574",
+                            "name": "Межсетевой экран и система обнаружения вторжений «Рубикон»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://npo-echelon.ru/production/65/11342",
+                            "cert_time": "17.02.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(2), Требования к МЭ, Профиль защиты МЭ(А второго класса защиты. ИТ.МЭ.А2.ПЗ), Требования к СОВ, Профили защиты СОВ(cети второго класса защиты. ИТ.СОВ.С2.ПЗ)"
+
+                        },
+                        {
+                            "cert_number": "3530",
+                            "name": "программно-аппаратный комплекс Dionis-NX",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://factor-ts.ru/products/dionis-nx/",
+                            "cert_time": "20.02.2024",
+                            "documents": "Соответствует требованиям документов: Требования доверия(2), Требования к МЭ, Профиль защиты МЭ(А второго класса защиты. ИТ.МЭ.А2.ПЗ), Требования к СОВ, Профили защиты СОВ(cети второго класса защиты. ИТ.СОВ.С2.ПЗ)"
+
+                        }   
+                    ]
+                },
+                {
+                    "id": 3,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "4145",
+                            "name": "аппаратно-программный комплекс шифрования «Континент». Версия 3.9",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "",
+                            "cert_time": "17.07.2024",
+                            "documents": "Соответствует требованиям документов: Требования доверия(3), Требования к МЭ, Профиль защиты МЭ(А третьего класса защиты. ИТ.МЭ.А3.ПЗ), Требования к СОВ, Профили защиты СОВ(cети третьего класса защиты. ИТ.СОВ.С3.ПЗ), ЗБ"
+
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3692",
+                            "name": "программно-аппаратный комплекс «ViPNet Coordinator HW 4»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://infotecs.ru/products/vipnet-coordinator-hw-4/",
+                            "cert_time": "26.01.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(А четвертого класса защиты. ИТ.МЭ.А4.ПЗ), Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ)"
+
+                        },
+                        {
+                            "cert_number": "3905",
+                            "name": "изделие «Универсальный шлюз безопасности «UserGate»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://www.usergate.com/ru/products/utm",
+                            "cert_time": "26.03.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(А четвертого класса защиты. ИТ.МЭ.А4.ПЗ), Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ), Профиль защиты МЭ(Г четвертого класса защиты. ИТ.МЭ.Г4.ПЗ), Профиль защиты МЭ(Д четвертого класса защиты. ИТ.МЭ.Д4.ПЗ), Требования к СОВ, Профили защиты СОВ(cети четвертого класса защиты. ИТ.СОВ.С4.ПЗ)"
+
+                        },
+                        {
+                            "cert_number": "3290",
+                            "name": "межсетевой экран и система обнаружения вторжений «Рубикон-К»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://npo-echelon.ru/production/65/11342",
+                            "cert_time": "04.12.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(А четвертого класса защиты. ИТ.МЭ.А4.ПЗ), Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ), Требования к СОВ, Профили защиты СОВ(cети четвертого класса защиты. ИТ.СОВ.С4.ПЗ)"
+
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 6,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Б",
+            "classes": [
+                {
+                    "id": 1,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 3,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 4,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "2308",
+                            "name": "cредство защиты информации «vGate R2»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://www.syssoft.ru/Kod-Bezopasnosti/vGate-R2/875575/",
+                            "cert_time": "28.03.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ), РД СВТ(5)"
+                        },
+                        {
+                            "cert_number": "3290",
+                            "name": "межсетевой экран и система обнаружения вторжений «Рубикон-К»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://npo-echelon.ru/production/65/11342",
+                            "cert_time": "04.12.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(А четвертого класса защиты. ИТ.МЭ.А4.ПЗ), Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ), Требования к СОВ, Профили защиты СОВ(cети четвертого класса защиты. ИТ.СОВ.С4.ПЗ)"
+
+                        },
+                        {
+                            "cert_number": "3692",
+                            "name": "программно-аппаратный комплекс «ViPNet Coordinator HW 4»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://infotecs.ru/products/vipnet-coordinator-hw-4/",
+                            "cert_time": "26.01.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(А четвертого класса защиты. ИТ.МЭ.А4.ПЗ), Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ)"
+                        },
+                        {
+                            "cert_number": "3905",
+                            "name": "изделие «Универсальный шлюз безопасности «UserGate»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://www.usergate.com/ru/products/utm",
+                            "cert_time": "26.03.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(А четвертого класса защиты. ИТ.МЭ.А4.ПЗ), Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ), Профиль защиты МЭ(Г четвертого класса защиты. ИТ.МЭ.Г4.ПЗ), Профиль защиты МЭ(Д четвертого класса защиты. ИТ.МЭ.Д4.ПЗ), Требования к СОВ, Профили защиты СОВ(cети четвертого класса защиты. ИТ.СОВ.С4.ПЗ)"
+
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "",
+                            "name": "",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "",
+                            "cert_time": "",
+                            "documents": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3814",
+                            "name": "маршрутизатор Cisco ISR 4331/K9 с установленным обеспечением Cisco IOS XE версии 16.06.05",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://cisco-russia.ru/cisco-isr4331-v-k9",
+                            "cert_time": "27.09.2024",
+                            "documents": "Соответствует требованиям документов: Требования к МЭ, Профиль защиты МЭ(А шестого класса защиты. ИТ.МЭ.А6.ПЗ), Профиль защиты МЭ(Б шестого класса защиты. ИТ.МЭ.Б6.ПЗ)"
+                        },
+                        {
+                            "cert_number": "4026",
+                            "name": "межсетевой экран Cisco ASA 5510 с установленным программным обеспечением Cisco ASA версии 9.1(7)29",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://shop.nag.ru/catalog/15596.servisnye-shlyuzy/37474.mezhsetevye-ekrany/08903.asa5510-k8",
+                            "cert_time": "15.10.2023",
+                            "documents": "Соответствует требованиям документов: Требования к МЭ, Профиль защиты МЭ(А шестого класса защиты. ИТ.МЭ.А6.ПЗ), Профиль защиты МЭ(Б шестого класса защиты. ИТ.МЭ.Б6.ПЗ)"
+                        },
+                        {
+                            "cert_number": "4163",
+                            "name": "межсетевой экран Cisco ASA 5515 с установленным программным обеспечением Cisco ASA версии 9.12(4)18",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://cisco-russia.ru/cisco-asa5508-k8",
+                            "cert_time": "28.08.2024",
+                            "documents": "Соответствует требованиям документов: Требования доверия(6), Требования к МЭ, Профиль защиты МЭ(А шестого класса защиты. ИТ.МЭ.А6.ПЗ), Профиль защиты МЭ(Б шестого класса защиты. ИТ.МЭ.Б6.ПЗ)"
+                        }
+                    ]
+                }
+            ] 
+        },
+        {
+            "type": "В",
+            "classes": [
+                {
+                    "id": 1,
+                    "szi_list": 
+                    [
+                        
+                    ]
+                },
+                {
+                    "id": 2,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "3675",
+                            "name": "средство защиты информации Secret Net Studio — C",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://data-sec.ru/catalog/endpoint-security/unauthorized-access/secret-net-studio-c-8-5/",
+                            "cert_time": "12.12.2024",
+                            "documents": "Соответствует требованиям документов: Требования доверия(2), Требования к МЭ, Профиль защиты МЭ(В второго класса защиты. ИТ.МЭ.В2.ПЗ), РД СВТ(3)"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "",
+                            "name": "",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "",
+                            "cert_time": "",
+                            "documents": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "2720",
+                            "name": "cистема защиты информации от несанкционированного доступа «Dallas Lock 8.0-K»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://dallaslock.ru/products/szi-nsd-dallas-lock/szi-ot-nsd-dallas-lock-8-0-k/",
+                            "cert_time": "25.09.2026",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(В четвертого класса защиты. ИТ.МЭ.В4.ПЗ), Требования к СКН, Профиль защиты СКН(контроля отчуждения (переноса) информации со съемных машинных носителей информации четвертого класса защиты. ИТ.СКН.Н4.ПЗ), Профиль защиты СКН(контроля подключения съемных машинных носителей информации четвертого класса защиты. ИТ.СКН.П4.ПЗ), Требования к СОВ, Профили защиты СОВ(узла четвертого класса защиты. ИТ.СОВ.У4.ПЗ), РД СВТ(5)"
+                        },
+                        {
+                            "cert_number": "3745",
+                            "name": "cредство защиты информации Secret Net Studio",
+                            "Detection Rate": 0.85,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://cbi-s.ru/catalog/programmnye-szi-ot-nsd/secret-net-studio/",
+                            "cert_time": "16.05.2025",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(В четвертого класса защиты. ИТ.МЭ.В4.ПЗ), Требования к САВЗ, Профиль защиты САВЗ(А четвертого класса защиты. ИТ.САВЗ.А4.ПЗ), Профиль защиты САВЗ(Б четвертого класса защиты. ИТ.САВЗ.Б4.ПЗ), Профиль защиты САВЗ(В четвертого класса защиты. ИТ.САВЗ.В4.ПЗ), Профиль защиты САВЗ(Г четвертого класса защиты. ИТ.САВЗ.Г4.ПЗ), Требования к СКН, Профиль защиты СКН(контроля подключения съемных машинных носителей информации четвертого класса защиты. ИТ.СКН.П4.ПЗ), Требования к СОВ, Профили защиты СОВ(узла четвертого класса защиты. ИТ.СОВ.У4.ПЗ), ЗБ, РД СВТ(5)"
+                        },
+                        {
+                            "cert_number": "4066",
+                            "name": "многофункциональный комплекс сетевой защиты «Diamond VPN/FW»",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://tssltd.ru/products/diamond-vpn-fw/",
+                            "cert_time": "24.01.2024",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(А четвертого класса защиты. ИТ.МЭ.А4.ПЗ), Профиль защиты МЭ(Б четвертого класса защиты. ИТ.МЭ.Б4.ПЗ), Профиль защиты МЭ(В четвертого класса защиты. ИТ.МЭ.В4.ПЗ), Требования к СОВ, Профили защиты СОВ(cети четвертого класса защиты. ИТ.СОВ.С4.ПЗ)"
+                        },
+                        {
+                            "cert_number": "4173",
+                            "name": "программный комплекс ViPNet Personal Firewall 4.5",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "https://infotecs.ru/products/vipnet-personal-firewall/",
+                            "cert_time": "08.10.2024",
+                            "documents": "Соответствует требованиям документов: Требования доверия(4), Требования к МЭ, Профиль защиты МЭ(В четвертого класса защиты. ИТ.МЭ.В4.ПЗ)"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "",
+                            "name": "",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "",
+                            "cert_time": "",
+                            "documents": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "szi_list": 
+                    [
+                        {
+                            "cert_number": "",
+                            "name": "",
+                            "Detection Rate": 0.95,
+                            "Scan Speed": 70,
+                            "Resource Usage": 0.1,
+                            "Cost": 100,
+                            "link": "",
+                            "cert_time": "",
+                            "documents": ""
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

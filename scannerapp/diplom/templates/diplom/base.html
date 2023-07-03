@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{% static 'diplom/css/style.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Diplom</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'home'%}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'scan_results'%}">See scan results</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'vuln_results'%}">Vulnerabilities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'threats_results'%}">Threats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'secure_tools'%}">Secure tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'secure_tools_results'%}">Secure tools results</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+      {% block content %}
+      <div class="container-fluid mt-5">
+        <form method="post" class="form-inline text-center bg-dark text-light ">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="text">Enter targets:</label>
+            <input  type="text" name="text" id="text" class="form-control input-sm mx-3" placeholder="Targets" >
+          </div>
+          <button type="submit" class="btn btn-light">Send</button>
+        </form>
+      </div>
+    {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".card").hover(function(){
+            $(this).find(".card-footer").slideDown(200);
+          }, function(){
+            $(this).find(".card-footer").slideUp(200);
+          });
+        });
+        </script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
